@@ -21,9 +21,19 @@ html {
 
 .main {
   height: 100vh;
-  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 10rem;
   flex-flow: column;
+  padding: 50px;
+  .products {
+    display: flex;
+    flex-flow: column;
+  }
+  .card {
+    margin-bottom: 30px;
+    .hot {
+      color: orangered;
+      font-weight: bold;
+    }
+  }
 }
